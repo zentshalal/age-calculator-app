@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Age calculator app</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --font-sans: "Poppins", "sans-serif";
+      }
+      body, html {
+        height: 100vh;
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body class="bg-gray-200 px-4 pt-20">
+    <div id="content" class="bg-white w-full rounded-4xl rounded-br-[8rem] px-6 py-10">
+      <div id="entry" class="grid grid-cols-3 gap-x-4">
+        <label for="days" class="text-gray-500 font-bold tracking-wider">
+          <span>DAY</span>
+          <input id="days" min="0" type="number" placeholder="DD" class="text-purple-500 placeholder:text-gray-500 border border-gray-200 focus:outline-none w-full py-3 text-xl px-2 rounded-lg">
+          <span class="warning-msg text-red-400 font-normal text-sm tracking-normal self-center"></span>
+        </label>
+        <label for="months" class="text-gray-500 font-bold tracking-wider">
+          <span>MONTH</span>
+          <input id="months" min="0" type="number" placeholder="MM" class="text-purple-500 placeholder:text-gray-500 border border-gray-200 focus:outline-none w-full py-3 text-xl px-2 rounded-lg">
+          <span class="warning-msg text-red-400 font-normal text-sm tracking-normal self-center"></span>
+        </label>
+        <label for="years" class="text-gray-500 font-bold tracking-wider">
+          <span>DAY</span>
+          <input id="years" min="0" type="number" placeholder="YYYY" class="text-purple-500 placeholder:text-gray-500 border border-gray-200 focus:outline-none w-full py-3 text-xl px-2 rounded-lg">
+          <span class="warning-msg text-red-400 font-normal text-sm tracking-normal self-center"></span>
+        </label>
+      </div>
+
+      <div id="divider" class="">
+        <div class="bg-gray-200 w-full rounded-xl flex justify-center items-center h-[2px] my-16">
+          <button class="bg-purple-500 rounded-full p-2 absolute cursor-pointer">
+            <img src="assets/icon-arrow.svg" alt="result button">
+          </button>
+        </div>
+      </div>
+
+      <div id="results">
+        <p class="text-5xl font-bold italic">
+          <span class="text-purple-500 year-result">--</span>
+          years
+        </p>
+        <p class="text-5xl font-bold italic">
+          <span class="text-purple-500 month-result">--</span>
+          months
+        </p>
+        <p class="text-5xl font-bold italic">
+          <span class="text-purple-500 day-result">--</span>
+          days
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
