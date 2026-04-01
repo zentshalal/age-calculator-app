@@ -2,13 +2,11 @@
 
 A responsive and precise age calculator web application. This project calculates a user's exact age in years, months, and days, featuring real-time validation and a modern UI built with the latest **Tailwind CSS v4**.
 
-![Project Screenshot](./screenshot.png)
-*(Note: Replace this image with a real screenshot of your app for the best effect)*
+![Project Screenshot](./screenshots/project-screenshot.png)
 
 ## 🚀 Live Demo
 
-Try it out here: **[Insert your GitHub Pages Link Here]**  
-*(Example: https://zentshalal.github.io/age-calculator-app/)*
+Try it out here: **https://zentshalal.github.io/age-calculator-app/**
 
 ## ✨ Features
 
