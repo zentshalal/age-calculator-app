@@ -47,13 +47,13 @@ You can run this project locally in seconds:
    cd age-calculator-app
 2. **Open the file**: Simply open index.html in any modern web browser.
 3. **No build step required**: The project uses vanilla JS and CDN for Tailwind, so no npm install or server setup is needed.
-4. 
+
 ## 📸 Screenshots
-- **Desktop view**
-  <img src="screenshots/desktop-screenshot.png" alt="desktop screenshot of the website"/>
+- **Desktop view**<br/>
+  <img src="screenshots/desktop-screenshot.png" alt="desktop screenshot of the website" width="200" height="200"/>
   
-- **Mobile view**
-  <img src="screenshots/mobile-screenshot.png" alt="mobile screenshot of the website" width="200" height="500"/>
+- **Mobile view**<br/>
+  <img src="screenshots/mobile-screenshot.png" alt="mobile screenshot of the website" width="100" height="200"/>
 
 ## 🤝 Contributing
 This project was developed as part of my self-taught journey to master full-stack web development fundamentals. Feel free to fork the repository or suggest improvements!
