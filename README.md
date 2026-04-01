@@ -50,10 +50,10 @@ You can run this project locally in seconds:
 
 ## 📸 Screenshots
 - **Desktop view**<br/>
-  <img src="screenshots/desktop-screenshot.png" alt="desktop screenshot of the website" width="200" height="200"/>
+  <img src="screenshots/desktop-screenshot.png" alt="desktop screenshot of the website" width="400" height="400"/>
   
 - **Mobile view**<br/>
-  <img src="screenshots/mobile-screenshot.png" alt="mobile screenshot of the website" width="100" height="200"/>
+  <img src="screenshots/mobile-screenshot.png" alt="mobile screenshot of the website" width="150" height="300"/>
 
 ## 🤝 Contributing
 This project was developed as part of my self-taught journey to master full-stack web development fundamentals. Feel free to fork the repository or suggest improvements!
