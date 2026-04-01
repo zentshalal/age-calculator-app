@@ -20,8 +20,9 @@
   </head>
 
   <body class="bg-gray-200 px-4 py-20">
-    <div id="content" class="bg-white w-full rounded-4xl rounded-br-[8rem] px-6 py-10">
-      <div id="entry" class="grid grid-cols-3 gap-x-4">
+    <div id="content" class="bg-white w-full rounded-4xl rounded-br-[8rem] px-6 py-10 md:w-2/3 mx-auto">
+      <div id="entry" class="grid grid-cols-3 gap-x-4 md:grid-cols-[5rem_1fr_1fr_1fr_5rem]">
+        <div class="hidden md:block"></div>
         <label for="days" class="text-gray-500 font-bold tracking-wider">
           <span>DAY</span>
           <input id="days" min="0" type="number" placeholder="DD" class="text-purple-500 placeholder:text-gray-500 border border-gray-200 focus:outline-none w-full py-3 text-xl px-2 rounded-lg">
@@ -47,16 +48,16 @@
         </div>
       </div>
 
-      <div id="results">
-        <p class="text-5xl font-bold italic">
+      <div id="results" class="md:text-7xl text-5xl">
+        <p class=" font-bold italic">
           <span class="text-purple-500 year-result">--</span>
           years
         </p>
-        <p class="text-5xl font-bold italic">
+        <p class=" font-bold italic">
           <span class="text-purple-500 month-result">--</span>
           months
         </p>
-        <p class="text-5xl font-bold italic">
+        <p class=" font-bold italic">
           <span class="text-purple-500 day-result">--</span>
           days
         </p>
