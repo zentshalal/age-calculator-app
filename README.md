@@ -53,10 +53,10 @@ You can run this project locally in seconds:
   <img src="screenshots/desktop-screenshot.png" alt="desktop screenshot of the website"/>
   
 - **Mobile view**
-  <img src="screenshots/mobile-screenshot.png" alt="mobile screenshot of the website"/>
+  <img src="screenshots/mobile-screenshot.png" alt="mobile screenshot of the website" width="200" height="500"/>
 
 ## 🤝 Contributing
 This project was developed as part of my self-taught journey to master full-stack web development fundamentals. Feel free to fork the repository or suggest improvements!
 
-## 📬 Contact
+## 📬 Contact
 **GitHub**: zentshalal
