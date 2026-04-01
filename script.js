@@ -22,13 +22,13 @@ document.addEventListener("DOMContentLoaded", () => {
         const rawValue = element.value.trim();
         const numValue = Number(rawValue);
 
-        // 1. Vérification vide
+        // Checks if empty
         if (rawValue === "") {
             setError(element, "This field is required");
             return false;
         }
 
-        // 2. Vérification format / range
+        // Checks if date is in range
         if (element === dayInp) {
             const max = daysInMonths[Number(monthInp.value) - 1] || 31;
             if (numValue < 1 || numValue > max) {
