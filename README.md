@@ -1,8 +1,8 @@
 # Age Calculator App
 
-A responsive and precise age calculator web application. This project calculates a user's exact age in years, months, and days, featuring real-time validation and a modern UI built with the latest **Tailwind CSS v4**.
+A responsive and precise age calculator web application. This project calculates a user's exact age in years, months, and days, featuring real-time validation and a modern UI built with **Tailwind CSS**.
 
-![Project Screenshot](./screenshots/project-screenshot.png)
+<img src="./screenshots/project-screenshot.png" alt="screenshot of the project working" />
 
 ## 🚀 Live Demo
 
@@ -17,7 +17,7 @@ Try it out here: **https://zentshalal.github.io/age-calculator-app/**
   - Future dates.
   - Dynamic error messages with visual feedback.
 - **Modern UI/UX**: 
-  - Built with **Tailwind CSS v4** (latest version).
+  - Built with **Tailwind CSS v4**.
   - Fully responsive design (Mobile-first approach).
   - Custom font integration (Poppins).
 - **Vanilla JavaScript**: No frameworks used for logic, ensuring lightweight performance and deep understanding of DOM manipulation.
@@ -45,15 +45,16 @@ You can run this project locally in seconds:
    ```bash
    git clone https://github.com/zentshalal/age-calculator-app.git
    cd age-calculator-app
+   ```
 2. **Open the file**: Simply open index.html in any modern web browser.
 3. **No build step required**: The project uses vanilla JS and CDN for Tailwind, so no npm install or server setup is needed.
 
 ## 📸 Screenshots
 - **Desktop view**<br/>
-  <img src="screenshots/desktop-screenshot.png" alt="desktop screenshot of the website" width="400" height="400"/>
+  <img src="screenshots/desktop-screenshot.png" alt="desktop screenshot of the website" width="400" height="400" />
   
 - **Mobile view**<br/>
-  <img src="screenshots/mobile-screenshot.png" alt="mobile screenshot of the website" width="150" height="300"/>
+  <img src="screenshots/mobile-screenshot.png" alt="mobile screenshot of the website" width="150" height="300" />
 
 ## 🤝 Contributing
 This project was developed as part of my self-taught journey to master full-stack web development fundamentals. Feel free to fork the repository or suggest improvements!
